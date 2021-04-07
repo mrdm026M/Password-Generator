@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassCode</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- navbar start -->
+        <nav class="navbar">
+            <div class="nav">
+                <h2>PassCode</h2>
+                <ul class="nav-list">
+                    <li class="link-1">Generate</li>
+                    <li class="link-2">Check</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+        <!-- password generate start -->
+        <section class="pass-generate">
+            <div class="gen-left-box">
+                <h2>Password Generator</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi voluptates maiores saepe explicabo
+                    obcaecati dicta labore earum in, animi accusamus accusantium facere libero asperiores iure dolore
+                    eius numquam necessitatibus quis.</p>
+            </div>
+            <div class="gen-right-box">
+                <div class="gen-box">
+                    <div class="gen-input">
+                        <span class="pass-text" id="pass-text"></span>
+                        <button class="pass-copy" id="pass-copy">Copy</button>
+                    </div>
+                    <div class="gen-option">
+                        <div class="form-control">
+                            <label for="pass-length">Password Length</label>
+                            <input id="pass-length" value="12" type="number" min="8" max="15" />
+                        </div>
+                        <div class="form-control">
+                            <label for="pass-upper">Add Uppercase Letters</label>
+                            <input id="pass-upper" type="checkbox" />
+                        </div>
+                        <div class="form-control">
+                            <label for="pass-lower">Add Lowercase Letters</label>
+                            <input id="pass-lower" type="checkbox" />
+                        </div>
+                        <div class="form-control">
+                            <label for="pass-number">Add Numbers</label>
+                            <input id="pass-number" type="checkbox" />
+                        </div>
+                        <div class="form-control">
+                            <label for="pass-symbol">Add Symbols</label>
+                            <input id="pass-symbol" type="checkbox" />
+                        </div>
+                        <button class="generate-pass" id="generate-pass">
+                            Generate Password
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- password generator end -->
+
+        <hr>
+
+        <!-- password checker start -->
+        <section class="pass-check">
+            <div class="check-left-box">
+                <div class="check-box">
+                    <input type="text" id="password" class="pass-check" name="passwordInput"
+                        placeholder="Enter your password">
+                    <ul class="check-list">
+                        <li><span class="low-upper-case">Lowercase &amp; Uppercase</span></li>
+                        <li><span class="number-case">Number (0-9)</span></li>
+                        <li><span class="special-case">Special Character (!@#$%^&*()_+=[])</span></li>
+                        <li><span class="eight-character-case">Password Length between 8 to 15 Characters</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="check-right-box">
+                <h2>Password Checker</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi voluptates maiores saepe explicabo
+                    obcaecati dicta labore earum in, animi accusamus accusantium facere libero asperiores iure dolore
+                    eius numquam necessitatibus quis.</p>
+            </div>
+        </section>
+        <!-- password check end -->
+    </div>
+
+    <script src="js/gen.js"></script>
+</body>
+
+</html>
