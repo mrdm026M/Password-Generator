@@ -60,14 +60,16 @@ a {
       display: flex;
 
       li {
-        color: var(--sub-text-color);
-        font-size: 1.25rem;
-        letter-spacing: 0.1rem;
-        padding: 10px;
+        a {
+          color: var(--sub-text-color);
+          font-size: 1.25rem;
+          letter-spacing: 0.1rem;
+          padding: 10px;
 
-        &:hover {
-          cursor: pointer;
-          color: var(--heading-color);
+          &:hover {
+            cursor: pointer;
+            color: var(--heading-color);
+          }
         }
       }
 

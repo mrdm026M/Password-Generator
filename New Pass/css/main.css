@@ -71,14 +71,14 @@ a {
   display: flex;
 }
 
-.navbar .nav ul li {
+.navbar .nav ul li a {
   color: var(--sub-text-color);
   font-size: 1.25rem;
   letter-spacing: 0.1rem;
   padding: 10px;
 }
 
-.navbar .nav ul li:hover {
+.navbar .nav ul li a:hover {
   cursor: pointer;
   color: var(--heading-color);
 }
